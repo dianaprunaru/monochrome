@@ -1,30 +1,13 @@
 export default function Header() {
   return (
-    <header className="header">
-      <div className="header-top">
-      <section className="header-primary d-lg-none">
-
-      </section>
-
+    <header className="header container mt-0 mt-lg-4">
       <section className="header-secondary">
-        <div className="header-connect d-none d-lg-block">
-
-        </div>
-
-        <div className="header-controls">
-
-        </div>
+        <div className="header-connect d-none d-lg-block"></div>
+        <div className="header-controls"></div>
+        <div className="form"></div>
+        <h1 className="d-lg-none"></h1>
       </section>
-
-      <section className="header-top-inner">
-
-      </section>
-      </div>
-
-      <div className="header-bottom">
-
-      </div>
-
+      <div className="header-primary"></div>
     </header>
   );
 }
