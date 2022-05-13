@@ -2,5 +2,74 @@
   &-secondary {
     background: $brand-primary url('/images/banner.png') no-repeat center center /
       cover;
+    width: 100%;
+    min-height: 450px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  &-top-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 40px 136px 0;
+
+    .header-connect > ul {
+      display: flex;
+      gap: 35px;
+      font-size: 16px;
+      color: $white;
+      padding: 5px 0;
+    }
+
+    .header-controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      justify-items: end;
+      row-gap: 35px;
+
+      .header-search {
+        background-color: transparent;
+        border: 1px solid #cccccc;
+
+        .search-bar {
+          border: none;
+          background-color: none;
+          color: #2b2b2b;
+          font-family: 'Roboto';
+          font-weight: 400;
+        }
+
+        .searchsubmit {
+          background-color: transparent;
+          border: none;
+          color: #2b2b2b;
+          padding: 6px;
+        }
+      }
+    }
+
+    .header-search-controls > ul {
+      display: flex;
+      gap: 32px;
+      font-size: 24px;
+      justify-content: space-between;
+    }
+  }
+
+  &-primary {
+    background-color: #2b2b2b;
+  }
+
+  &-nav > ul {
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+    line-height: 52px;
+    text-transform: uppercase;
+    font-size: 19px;
   }
 }
