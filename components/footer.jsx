@@ -26,8 +26,9 @@ export default function Footer() {
           </ul>
         </section>
 
+        <h1 className="nav-title d-lg-none">How can we help?</h1>
         <nav className="footer-nav">
-          <ul>
+          <ul className="footer-nav-blog">
             <li>
               <a href="" title="style and fit advice">
                 style and fit advice
@@ -52,10 +53,8 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-        </nav>
 
-        <nav className="footer-nav">
-          <ul>
+          <ul className="footer-nav-info">
             <li>
               <a href="" title="about us">
                 about us
@@ -93,25 +92,25 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="" title="youtube">
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="twitter">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="facebook">
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="instagram">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
             </ul>
