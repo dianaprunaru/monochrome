@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="header">
       <section className="header-secondary">
-        <div className="header-top-inner container mt-0 mt-lg-0">
+        <div className="header-top-inner container mt-30 mt-lg-0">
           <div className="header-connect d-none d-lg-block">
             <ul>
               <li>
@@ -38,7 +38,7 @@ export default function Header() {
           </div>
 
           <div className="header-controls">
-            <div className="header-search">
+            <div className="header-search d-none d-lg-block">
               <form action="">
                 <button type="submit" class="searchsubmit">
                   <i class="fa-solid fa-magnifying-glass"></i>
@@ -54,7 +54,8 @@ export default function Header() {
               </form>
             </div>
 
-            <div className="header-search-controls">
+            <div className="header-search-controls py-lg-0 d-flex">
+              <h1 className="d-block d-lg-none">Monochrome</h1>
               <ul>
                 <li>
                   <a href="" title="User">
@@ -76,13 +77,29 @@ export default function Header() {
               </ul>
             </div>
           </div>
-
-          <h1 className="d-block d-lg-none">Monochrome</h1>
         </div>
       </section>
 
       <div className="header-primary">
-        <div className="form d-block d-lg-none"></div>
+        <div className="navbar container d-flex d-lg-none">
+          <a href="#" className="toggler-menu">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+
+          <form action="" className="mobile-search-form">
+            <label for="mobile-search-bar"></label>
+            <input
+              type="text"
+              className="mobile-search-bar"
+              placeholder="search"
+              value=""
+              name="mobile-search-bar"
+            ></input>
+            <button type="submit" class="mobile-search-button">
+              <i className="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
 
         <nav className="header-nav container d-none d-lg-block d-flex">
           <ul>
