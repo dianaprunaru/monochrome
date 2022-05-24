@@ -7,25 +7,25 @@ export default function Header() {
             <ul>
               <li>
                 <a href="" title="YouTube">
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Twitter">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Facebook">
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Instagram">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
@@ -40,13 +40,13 @@ export default function Header() {
           <div className="header-controls">
             <div className="header-search d-none d-lg-block">
               <form action="">
-                <button type="submit" class="searchsubmit">
-                  <i class="fa-solid fa-magnifying-glass"></i>
+                <button type="submit" className="searchsubmit">
+                  <i className="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <label for="search-bar"></label>
+                <label htmlFor="search-bar"></label>
                 <input
                   type="text"
-                  class="search-bar"
+                  className="search-bar"
                   placeholder="Search"
                   value=""
                   name="search-bar"
@@ -59,19 +59,19 @@ export default function Header() {
               <ul>
                 <li>
                   <a href="" title="User">
-                    <i class="fa-solid fa-user"></i>
+                    <i className="fa-solid fa-user"></i>
                   </a>
                 </li>
 
                 <li>
                   <a href="" title="Favorites">
-                    <i class="fa-solid fa-heart"></i>
+                    <i className="fa-solid fa-heart"></i>
                   </a>
                 </li>
 
                 <li>
                   <a href="" title="Cart">
-                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i className="fa-solid fa-bag-shopping"></i>
                   </a>
                 </li>
               </ul>
@@ -83,11 +83,11 @@ export default function Header() {
       <div className="header-primary">
         <div className="navbar container d-flex d-lg-none">
           <a href="#" className="toggler-menu">
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
           </a>
 
           <form action="" className="mobile-search-form">
-            <label for="mobile-search-bar"></label>
+            <label htmlFor="mobile-search-bar"></label>
             <input
               type="text"
               className="mobile-search-bar"
@@ -95,7 +95,7 @@ export default function Header() {
               value=""
               name="mobile-search-bar"
             ></input>
-            <button type="submit" class="mobile-search-button">
+            <button type="submit" className="mobile-search-button">
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
@@ -116,14 +116,14 @@ export default function Header() {
             </li>
 
             <li>
-              <a href="" title="Men's">
-                Men's
+              <a href="" title="Mens">
+                Mens
               </a>
             </li>
 
             <li>
-              <a href="" title="Women's">
-                Women's
+              <a href="" title="Womens">
+                Womens
               </a>
             </li>
 

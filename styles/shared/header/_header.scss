@@ -98,16 +98,14 @@
       }
 
       .header-controls {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        justify-items: end;
-        row-gap: 35px;
+        display: flex;
+        justify-content: space-between;
 
         .header-search {
           background-color: transparent;
           border: 1px solid #cccccc;
           align-items: center;
+          margin-left: 120px;
 
           .search-bar {
             border: none;
@@ -129,7 +127,7 @@
       .header-search-controls > ul {
         display: flex;
         gap: 32px;
-        font-size: 24px;
+        font-size: 16px;
         justify-content: space-between;
       }
     }
