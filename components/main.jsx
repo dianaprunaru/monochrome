@@ -20,20 +20,19 @@ export default function Main() {
             <h1 className="d-block d-lg-none">Spring collection</h1>
             <h1 className="d-none d-lg-block">New Stuff</h1>
           </header>
-          <section className="product-tiles row">
-            <div className="col-2 col-lg-4">
+          <section className="product-tiles container row d-flex">
+            <div className="col">
+              <ProductTile></ProductTile>
+            </div>
+            <div className="col">
               <ProductTile></ProductTile>
             </div>
 
-            <div className="col-2 col-lg-4 offset-lg-1 mt-4 mt-lg-0">
+            <div className="col">
               <ProductTile></ProductTile>
             </div>
 
-            <div className="col-2 col-lg-4 offset-lg-1 mt-4 mt-lg-0">
-              <ProductTile></ProductTile>
-            </div>
-
-            <div className="col-2 col-lg-4 offset-lg-1 mt-4 mt-lg-0">
+            <div className="col">
               <ProductTile></ProductTile>
             </div>
           </section>

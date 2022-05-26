@@ -11,14 +11,17 @@ export default function ProductTile() {
           </a>
         </div>
 
-        <div className="product-tile-favorite">
+        <div className="product-tile-controls">
           <i className="fa-solid fa-heart"></i>
         </div>
+
+        <div className="product-tile-heading">
+          <h2>Monochrome</h2>
+        </div>
       </header>
-
-      <div className="product-tile-heading"></div>
-
-      <div className="product-tile-pricing"></div>
+      <div className="product-tile-pricing">
+        <p>$ 425</p>
+      </div>
     </article>
   );
 }

@@ -48,7 +48,6 @@ export default function Header() {
                   type="text"
                   className="search-bar"
                   placeholder="Search"
-                  value=""
                   name="search-bar"
                 ></input>
               </form>
@@ -92,7 +91,6 @@ export default function Header() {
               type="text"
               className="mobile-search-bar"
               placeholder="search"
-              value=""
               name="mobile-search-bar"
             ></input>
             <button type="submit" className="mobile-search-button">

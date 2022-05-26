@@ -8,3 +8,10 @@
     display: flex;
   }
 }
+
+@include media-breakpoint-up(lg) {
+  .product-tiles {
+    display: flex;
+    flex-direction: row;
+  }
+}

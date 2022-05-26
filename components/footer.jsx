@@ -85,7 +85,7 @@ export default function Footer() {
           <form action="" className="footer-newsletter">
             <label htmlFor="email">sign up for our newsletter</label>
             <input type="email" name="email" id="email"></input>
-            <input type="submit" value="Submit"></input>
+            <input type="submit"></input>
           </form>
 
           <div className="footer-social">

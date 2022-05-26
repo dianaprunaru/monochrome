@@ -1,0 +1,23 @@
+.product-tile {
+  text-align: center;
+
+  &-header {
+    position: relative;
+  }
+
+  &-image {
+    img {
+      width: 100%;
+    }
+  }
+
+  &-controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &-heading {
+    margin-top: 30px;
+  }
+}
