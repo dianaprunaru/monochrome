@@ -26,12 +26,14 @@ export default function Footer() {
           </ul>
         </section>
 
-        <h1 className="nav-title d-lg-none">How can we help?</h1>
         <nav className="footer-nav">
+          <div className="nav-title d-inline-block d-lg-none">
+            <h1>How can we help?</h1>
+          </div>
           <ul className="footer-nav-blog">
             <li>
               <a href="" title="style and fit advice">
-                style and fit advice
+                style and fit
               </a>
             </li>
 
@@ -49,10 +51,12 @@ export default function Footer() {
 
             <li>
               <a href="" title="exchanges and returns">
-                exchanges and returns
+                returns
               </a>
             </li>
           </ul>
+
+          <div className="vertical d-block d-lg-none"></div>
 
           <ul className="footer-nav-info">
             <li>

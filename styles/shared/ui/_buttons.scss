@@ -1,11 +1,10 @@
 .button {
   background-color: none;
-  color: #2b2b2b;
-  font-size: 22px;
+  color: $white;
+  font-size: 10px;
   font-family: 'Roboto';
   font-weight: 400;
-  padding: 12px 16px;
-  border: 1px solid #2b2b2b;
+  border: 1px solid white;
   text-decoration: none;
   cursor: pointer;
   transition: color 0.2s linear, background-color 0.2s linear;
@@ -13,5 +12,25 @@
   &:hover {
     color: $white;
     background-color: #2b2b2b;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .button {
+    background-color: transparent;
+    color: #2b2b2b;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 8px 14px;
+    border: 1px solid #2b2b2b;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s linear, background-color 0.2s linear;
+
+    &:hover {
+      color: $white;
+      background-color: #2b2b2b;
+    }
   }
 }
