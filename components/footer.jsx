@@ -86,13 +86,24 @@ export default function Footer() {
         </nav>
 
         <section className="footer-connect">
+          <h1 className="d-block d-lg-none">Lets connect</h1>
+          <p className="footer-connect-cta d-block d-lg-none">
+            Be the first to receive exclusive offers
+          </p>
           <form action="" className="footer-newsletter">
             <label htmlFor="email">sign up for our newsletter</label>
-            <input type="email" name="email" id="email"></input>
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+            ></input>
             <input type="submit"></input>
           </form>
 
           <div className="footer-social">
+            <h1 className="d-block d-lg-none">We are highly likeable</h1>
             <ul>
               <li>
                 <a href="" title="youtube">

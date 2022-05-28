@@ -88,6 +88,7 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
       padding: 0px 136px;
+      align-items: flex-end;
 
       .header-connect > ul {
         display: flex;
@@ -100,6 +101,7 @@
       .header-controls {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         .header-search {
           background-color: transparent;
