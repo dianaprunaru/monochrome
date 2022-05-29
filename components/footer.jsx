@@ -83,6 +83,16 @@ export default function Footer() {
               </a>
             </li>
           </ul>
+
+          <div className="terms-privacy container d-flex d-lg-none">
+            <a href="/" title="terms">
+              terms and conditions
+            </a>
+
+            <a href="/" title="privacy">
+              privacy and cookies
+            </a>
+          </div>
         </nav>
 
         <section className="footer-connect">
@@ -91,7 +101,9 @@ export default function Footer() {
             Be the first to receive exclusive offers
           </p>
           <form action="" className="footer-newsletter">
-            <label htmlFor="email">sign up for our newsletter</label>
+            <label htmlFor="email d-none d-lg-block">
+              sign up for our newsletter
+            </label>
 
             <input
               type="email"
@@ -101,6 +113,20 @@ export default function Footer() {
             ></input>
             <input type="submit"></input>
           </form>
+
+          <div className="privacy-policy container d-block d-lg-none">
+            <p>
+              I agree with{' '}
+              <span>
+                {' '}
+                <a href="/" title="privacy-policy">
+                  {' '}
+                  Privacy Policy{' '}
+                </a>
+              </span>{' '}
+              and i want to receive emails from Monochrome
+            </p>
+          </div>
 
           <div className="footer-social">
             <h1 className="d-block d-lg-none">We are highly likeable</h1>
