@@ -85,11 +85,11 @@ export default function Footer() {
           </ul>
 
           <div className="terms-privacy container d-flex d-lg-none">
-            <a href="/" title="terms">
+            <a href="" title="terms">
               terms and conditions
             </a>
 
-            <a href="/" title="privacy">
+            <a href="" title="privacy">
               privacy and cookies
             </a>
           </div>
@@ -119,7 +119,7 @@ export default function Footer() {
               I agree with{' '}
               <span>
                 {' '}
-                <a href="/" title="privacy-policy">
+                <a href="" title="privacy-policy">
                   {' '}
                   Privacy Policy{' '}
                 </a>
